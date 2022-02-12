@@ -24,7 +24,12 @@ description: >- # this means to ignore newlines until "baseurl:"
  This is my personal blog where I'll post game programming stuff mainly as well as some personal stories which worth remembering.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+social_name: Yuchen Mei
+github_company: Yuchen Company
+github_deprecated: Yuchen (Deprecated)
 github_username: YuchenPersonal
+github_username2: mycmessia
+github_username3: YuchenMei
 linkedin_username: Yuchen-Mei
 youtube_channel: UC8XtfM7k6htPHo_QFWyAV2A
 youtube_channelname: Yuchen Games
