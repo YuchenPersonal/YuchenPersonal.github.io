@@ -2,7 +2,7 @@
 layout: post
 title: "UE4 Networking Resources"
 date: 2022-02-09 21:21:27 +0000
-categories: UE4
+categories: Programming, Unreal Engine
 ---
 
 This is a post of my UE4 Networking Resources collection.

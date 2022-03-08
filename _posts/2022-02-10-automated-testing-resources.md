@@ -2,7 +2,7 @@
 layout: post
 title: "Automated Testing Rescources"
 date: 2022-02-10 21:21:27 +0000
-categories: UE4
+categories: Programming, Automated Testing
 ---
 
 Automated testing is not only super useful for reducing testing cost but also a good tool to ensure the same bug won't happen again.
