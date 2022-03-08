@@ -2,7 +2,7 @@
 layout: post
 title: "How to Write Good Code Tests"
 date: 2022-02-17 20:20:20 +0000
-categories: Programming, Automated Testing
+categories: [Programming, AutomatedTesting]
 ---
 
 ## Unit Tests
