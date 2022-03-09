@@ -7,4 +7,4 @@ categories: [Random]
 
 Found this picture from a company email which has really inspired me about the meaning of life.
 
-![Life Goals](Images/LifeGoals.jpg)
+![Life Goals](/assets/img/sample-image.png)
