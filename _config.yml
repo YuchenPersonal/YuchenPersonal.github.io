@@ -38,10 +38,6 @@ youtube_channelname: Yuchen Games
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate
-
-paginate: 3
-paginate_path: "/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
