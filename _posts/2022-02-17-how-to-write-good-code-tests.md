@@ -13,7 +13,7 @@ The principle of writing code tests is: **Test the behaviour, not the implementa
 My understanding is, for example, you want to test when we water a plant, it grows. Your test should pass no matter the function is done by loops or recursion.
 Also according to my own experience, a code test is used to make sure the functionality you've created won't be broken accidentally or the bug you have fixed won't happen again. 
 
-Here are some good practices on writting unit tests.
+Here are some good practices on writing unit tests.
 
 1. A unit test should be single purpose which means it's usually about an actor, a component or a struct.
 
@@ -25,4 +25,4 @@ e.g. You want to write a test of the dialogue component attached to an NPC, in t
 
 ## Asset Tests
 
-Asset tests are widely used to make sure someone won't change an asset property to be invalid. A common case is to check some important properies are not blank.
+Asset tests are widely used to make sure someone won't change an asset property to be invalid. A common case is to check some important properties are not blank.
