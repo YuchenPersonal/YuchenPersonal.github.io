@@ -11,6 +11,7 @@ Unit tests are the most common code tests.
 
 The principle of writing code tests is: **Test the behaviour, not the implementation.**
 My understanding is, for example, you want to test when we water a plant, it grows. Your test should pass no matter the function is done by loops or recursion.
+Also according to my own experience, a code test is used to make sure the functionality you've created won't be broken accidentally or the bug you have fixed won't happen again. 
 
 Here are some good practices on writting unit tests.
 
