@@ -10,8 +10,7 @@ categories: [Programming, AutomatedTesting]
 Unit tests are the most common code tests.
 
 The principle of writing code tests is: **Test the behaviour, not the implementation.**
-My understanding of that is, whenever creating a code test, ask yourself a question, if someone changes a function name, will it break my test?
-It shouldn't if it's a function that handles a step of a whole implementation, not interface functions like IsActive().
+My understanding is, for example, you want to test when we water a plant, it grows. Your test should pass no matter the function is done by loops or recursion.
 
 Here are some good practices on writting unit tests.
 
