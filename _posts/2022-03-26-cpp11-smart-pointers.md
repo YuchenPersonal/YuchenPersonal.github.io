@@ -7,4 +7,4 @@ categories: [Programming]
 
 This is a really good in-depth tutorial about C++11 smart pointers.
 
-[C++11 Smart Pointers](https://www.yuchenpersonal.github.io/assets/pdf/C++11_smart_ptrs.pdf)
+[C++11 Smart Pointers](https://yuchenpersonal.github.io/assets/pdf/C++11_smart_ptrs.pdf)
