@@ -21,7 +21,7 @@ In order to solve all these, you need state machine pattern to reduce conjunctio
 
 It depends on the game engine you're using you can either store the state machine in your base character class and have your AI character and player character derive from it to be able to use the state machine.
 
-But I'd recommend creating a state machine component and just attach to any character that needs it.
+But I'd recommend creating a state machine component and just attach it to any character that needs it.
 
 You'd also need a class to be the base state and other states will derive from it.
 
@@ -29,12 +29,10 @@ Back to the parkour game, you can have RunState, RunOnTheWallState, JumpState, F
 
 Each of them will have a few virtual functions:
 
-{% highlight c++ %}
 virtual void Enter(); // This is called when the character enters this state. You can activate a VFX or SFX using this for example.
 virtual void Exit(); // Called when the character exits this state. Similarly, you can deactivate something here.
 virtual void Update(); // Called to do some regular stuff e.g. to check if we should stay in this state or we should exit.
 virtual void HandleInput(); // Each state can have its own valid inputs e.g. you can't jump while in FlyState
-{% endhighlight %}
 
 ## Getting Complicated
 
