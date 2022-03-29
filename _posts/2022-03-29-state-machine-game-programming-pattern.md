@@ -29,7 +29,7 @@ Back to the parkour game, you can have RunState, RunOnTheWallState, JumpState, F
 
 Each of them will have a few virtual functions:
 
-{% highlight c %}
+{% highlight cpp %}
 virtual void Enter(); // This is called when the character enters this state. You can activate a VFX or SFX using this for example.
 virtual void Exit(); // Called when the character exits this state. Similarly, you can deactivate something here.
 virtual void Update(); // Called to do some regular stuff e.g. to check if we should stay in this state or we should exit.
