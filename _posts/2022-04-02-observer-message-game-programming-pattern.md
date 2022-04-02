@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Observer/Message Game Programming Pattern"
+title: "Observer Message Game Programming Pattern"
 date: 2022-04-02 19:44:00 +0000
 categories: [Programming]
 ---
