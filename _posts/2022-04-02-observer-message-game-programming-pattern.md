@@ -7,7 +7,7 @@ categories: [Programming]
 
 ## Why?
 
-Imagine you want to award a player when it kills a boss.
+Imagine you want to award the player who kills a boss.
 
 In your AI's death code, you'd probably do something like this:
 
