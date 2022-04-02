@@ -36,6 +36,6 @@ for (int32 Index = 0; Index < Observers.Num(); Index++)
 
 The Message pattern is similar to Observer, but it's more flexible in my opinion. Instead of deriving everything from Observer, you just register a Message (UStruct) to a MessageHandler. A MessageHandler is basically anything that has a map of type (UStruct::StaticClass())=>callback functions (In practice, it can be an interface).
 
-So still the above example, you'd have Reward code, VFX code, UI code and SFX code all register an AIDeathMessage to a reachable actor (GameState/GameInstance or even the killer's PlayerController). Then when the boss dies, it sends AIDeathMessage with useful parameters(the killer and some info about itself) to the MessageHandler that everybody has registered to. Then all different codes handle AIDeathMessage in their callbacks.
+So still the above example, you'd have Reward code, VFX code, UI code and SFX code all register an AIDeathMessage to a reachable actor (GameState/GameInstance or even the killer's PlayerController). Then when the boss dies, it sends AIDeathMessage with useful parameters(the killer and some info about itself) to the MessageHandler that everybody has registered to. Everybody just handles AIDeathMessage in its own callback.
 
-This way we don't mix all different codes in one place. Also because we only care about AIDeathMessage not everything in the AI module, the Reward, VFX, UI, SFX module don't need to include/link AI code.
+This way we don't mix up different codes in one place. Also because we only care about AIDeathMessage not everything in the AI module, the Reward, VFX, UI, SFX module don't need to include/link AI code.
