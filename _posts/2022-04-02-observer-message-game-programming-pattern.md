@@ -19,7 +19,7 @@ Later on you may want to show a notification which means you'd put some UI code 
 
 If it keeps going like this and you want to play a SFX, a VFX, you end up putting all sorts of code into your AI's death code.
 
-It that makes sense, that's why we need Observer/Message Pattern.
+That's why we need Observer/Message Pattern.
 
 ## How?
 
