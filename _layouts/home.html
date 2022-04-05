@@ -14,7 +14,7 @@ layout: default
   {%- if posts.size > 0 -%}
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {% for tag in site.tags %}
-        <h2>{{ tag[0] }}</h2>
+        <h2 class="post-list-heading">{{ tag[0] }}</h2>
   	    <ul class = "post-list">
     	    {% for post in tag[1] %}
       	  <li>
@@ -25,5 +25,4 @@ layout: default
   	    </ul>
       {% endfor %}
   {%- endif -%}
-
 </div>
