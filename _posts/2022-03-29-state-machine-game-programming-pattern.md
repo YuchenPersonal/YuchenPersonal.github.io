@@ -3,7 +3,7 @@ layout: post
 title: "State Machine Game Programming Pattern"
 date: 2022-03-29 18:46:00 +0000
 categories: [Programming]
-tags: [Game Programming Patterns, State Machine Pattern]
+tags: [Game Programming Patterns]
 ---
 
 ## Why?
