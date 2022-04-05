@@ -3,7 +3,6 @@ layout: post
 title: "Life Goals"
 date: 2022-03-09 17:13:27 +0000
 categories: [Random]
-tags: [Life, Goals]
 ---
 
 Found this picture from a company email which has really inspired me about the meaning of life.
