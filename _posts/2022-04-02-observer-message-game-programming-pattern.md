@@ -3,6 +3,7 @@ layout: post
 title: "Observer and Message Game Programming Pattern"
 date: 2022-04-02 19:44:01 +0000
 categories: [Programming]
+tags: [Game Programming Patterns, Observer Pattern, Message Pattern]
 ---
 
 ## Why?

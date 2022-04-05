@@ -2,7 +2,7 @@
 layout: post
 title: "Automated Testing Resources"
 date: 2022-02-10 21:21:27 +0000
-categories: [Programming, AutomatedTesting]
+categories: [Programming, Automated Testing]
 tags: [UE4, Automated Testing]
 ---
 
