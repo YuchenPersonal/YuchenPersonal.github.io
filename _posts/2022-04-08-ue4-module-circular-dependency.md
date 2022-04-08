@@ -2,7 +2,8 @@
 layout: post
 title: "UE4 Module Circular Dependency and How to Solve it"
 date: 2022-04-08 19:58:27 +0000
-categories: [UE4]
+categories: [Programming]
+tags: [UE4]
 ---
 
 Circular dependencies can appear when your project gets bigger and its module number grows.
