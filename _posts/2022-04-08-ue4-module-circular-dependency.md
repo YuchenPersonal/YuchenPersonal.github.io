@@ -11,7 +11,8 @@ For example:
 
 Mechanism module depends on AI module.
 
-You want to add something in your AI module which calls functions implemented in Mechanism module which means AI module has to depend on Mechanism.
+You want to add something in your AI module which calls functions implemented in Mechanism module.
+This means AI module has to depend on Mechanism.
 
 You have a circular dependency and your project fails to build because the build tool can't figure out which module to build first (Both modules require the other one to be ready).
 
