@@ -21,6 +21,6 @@ A good way to solve (not avoid because you can't predict it or I can't :)) circu
 
 Also we need to decide what should be put in the Framework module. In other words, what should be used by both the AI module and Mechanism module.
 
-I'd say Interfaces. Ideally, modules don't really need to call functions implemented in another module, Interfaces should be the way for modules to communicate between each other. (But things are not always ideal especially when it comes to collaboration and fixed deadlines I know.)
+I'd say Interfaces. Ideally, modules don't really want to call functions implemented in another module, Interfaces should be the way for modules to communicate between each other. (But things are not always ideal especially when it comes to collaboration and fixed deadlines I know.)
 
 Another thing which might be a good option to be put into Framework module is Messages if you are using Message Game Programming Pattern.
