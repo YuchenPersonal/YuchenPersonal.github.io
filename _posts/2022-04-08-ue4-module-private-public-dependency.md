@@ -2,7 +2,8 @@
 layout: post
 title: "UE4 Module Private and Public Dependency"
 date: 2022-04-08 19:13:27 +0000
-categories: [UE4]
+categories: [Programming]
+tags: [UE4]
 ---
 
 Modules in UE4 are dlls. Each module is compiled individually and modules are linked together to become an executable.
