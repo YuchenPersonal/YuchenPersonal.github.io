@@ -12,3 +12,5 @@ When you make a temp fix which doesn't really fix the root cause: I appreciate t
 Making progress bit by bit.
 
 When you are asked by a colleague whether you have finished/started working on something: How urgent do you need that?
+
+I think we have a mitigation.
