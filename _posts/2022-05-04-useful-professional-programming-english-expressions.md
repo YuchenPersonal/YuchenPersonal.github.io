@@ -13,4 +13,6 @@ Making progress bit by bit.
 
 When you are asked by a colleague whether you have finished/started working on something: How urgent do you need that?
 
-I think we have a mitigation.
+We have a mitigation.
+
+This system is primarily geared towards xxx but it can be used for xxx.
