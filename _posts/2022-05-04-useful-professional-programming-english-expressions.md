@@ -15,4 +15,6 @@ When you are asked by a colleague whether you have finished/started working on s
 
 We have a mitigation.
 
-This system is primarily geared towards xxx but it can be used for xxx.
+This system is primarily geared towards xxx but it can also be used for xxx.
+
+You are assigned a task. You talk to someone who worked on it before. He gives you some potential ideas on it. You can say: that's a great jumping-off point for us.
