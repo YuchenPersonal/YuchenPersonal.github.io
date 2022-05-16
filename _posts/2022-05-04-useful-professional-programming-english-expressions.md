@@ -20,3 +20,5 @@ You've got a task. You talk to someone who worked on it before. He gives you som
 When you are asked by someone who might be the best person to talk to about something: Person A and person B were heavily involved with that, but can't remember if the implementation was farmed out to person C or person B. Tagged them to point you to the right engineer.
 
 When you want to ask if someone else have capacity to take a look at something: Is anyone on Team A in a place to dig into some XXX?
+
+When you descirbe logs: After this log, one would normally expect this next log to follow, however it did not.
