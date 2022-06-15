@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Aggregate Ticking"
+title: "Aggregate Ticking to Improve CPU Performance"
 date: 2022-06-15 20:50:00 +0000
 categories: [Programming]
 tags: [UE4]
