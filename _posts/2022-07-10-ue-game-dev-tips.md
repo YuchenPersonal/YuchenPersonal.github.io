@@ -19,3 +19,5 @@ I'll keep this updated as much as possible. Hopefully these tips will help to ma
 * Sort your includes in alphabetical order.
 
 1. We can tell easily whether the include we are trying to add already exists.
+
+* Put function declarations before properties in each public/protected/private section.
