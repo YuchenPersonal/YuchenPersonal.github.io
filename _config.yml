@@ -35,6 +35,7 @@ youtube_channel: UC8XtfM7k6htPHo_QFWyAV2A
 youtube_channelname: Yuchen Games
 
 # Build settings
+future: true
 theme: minima
 plugins:
   - jekyll-feed
