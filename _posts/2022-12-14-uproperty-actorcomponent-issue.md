@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blueprint Spawnable Component Created Using CreateDefaultObject Gets Nulled Before BeginPlay"
+title: "UPROPERTY ActorComponent Created Using CreateDefaultObject Gets Nulled Before BeginPlay"
 date: 2022-12-14 21:21:00 +0000
 categories: [Programming]
 tags: [UE4]
@@ -19,3 +19,7 @@ From what I can see it seems to be this issue:
 [UPROPERTY member vars reset to NULL by ObjectInitializer](https://forums.unrealengine.com/t/uproperty-member-vars-reset-to-null-by-objectinitializer/19959/19){:target="_blank"}
 
 The way I fixed/worked around it was I just added the SaveGameComponent manually to the BP_GameMode.
+
+This is a really weird issue and it doesn't seem to happen in every situation but it only happens to ActorComponents marked as UPROPERTY() (we have to mark to stop them being GCed but removing UPROPERTY() does stop the issue).
+
+Creating a new BP from scratch fixes this issue so it seems to be a bug related to cached property.
