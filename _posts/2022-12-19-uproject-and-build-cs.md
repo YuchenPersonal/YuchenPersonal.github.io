@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What you have to add to .uproject and what you need to add to .Build.cs "
+title: "What you have to add to .uproject and what you need to add to .Build.cs"
 date: 2022-12-19 21:21:00 +0000
 categories: [Programming]
 tags: [UE4]
