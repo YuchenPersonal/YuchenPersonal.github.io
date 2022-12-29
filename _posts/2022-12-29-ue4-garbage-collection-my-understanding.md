@@ -8,4 +8,4 @@ tags: [UE4]
 
 My understanding about UE4's garbage colletion.
 
-1. A UPROPERTY marked pointer is counted as hard reference so the thing it points to won't be GCed.
+1. A UPROPERTY marked RAW pointer is counted as hard referenced so the UObject it points to won't be GCed.
