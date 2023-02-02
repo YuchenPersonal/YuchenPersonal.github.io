@@ -6,9 +6,9 @@ categories: [Programming]
 tags: [C++]
 ---
 
-Today when I was coding C++ doing some castings from const void* to void* I have noticed one thing which is really interesting.
+Today when I was coding C++ doing some castings from const void pointer to void pointer I have noticed one thing which is really interesting.
 
-So, if a function takes in a const type*, you can C style cast it to the non const type* and you'll be able to use the returned pointer to modify the parameter's value.
+So, if a function takes in a const type pointer, you can C style cast it to the non const type pointer and you'll be able to use the returned pointer to modify the parameter's value.
 
 It only applies to function parameter.
 
