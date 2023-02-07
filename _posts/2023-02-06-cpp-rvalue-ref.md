@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "C++ rvalue Reference"
-date: 2022-03-26 19:17:00 +0000
+date: 2023-02-06 19:17:00 +0000
 categories: [Programming]
 tags: [C++]
 ---
