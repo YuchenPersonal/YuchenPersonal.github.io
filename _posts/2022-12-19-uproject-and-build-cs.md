@@ -14,10 +14,27 @@ E.g. I have a RandomNumber module and my main game module is dependent on it (It
 
 One thing to notice is if you want an automated test to show up in the editor session frontend, you'd have to add the test module to .uproject.
 
-My understanding about why .Target.cs, .Build.cs, and .uproject
+My understanding about why we need .Target.cs, .Build.cs, and .uproject
 
-We need .Target.cs because we can have the same project on different targets (e.g. Game.Target.cs GameEditor.Target.cs and GameServer.Target.cs) and different targets can have different modules (e.g. a module may only be needed for editor build)
+We need .Target.cs because we can have the same project on different targets (e.g. Game.Target.cs GameEditor.Target.cs and GameServer.Target.cs) and different targets can have different modules (e.g. a test module may only be needed for editor build)
 
 .Build.cs is about what's needed for this module (a dll) to be built
 
 .uproject contains modules in the project and can be used to enable/disable plugins
+
+This is from my project called Newcastle, here we can see it has a property called AdditionalDependencies.
+
+Any modules in AdditionalDependencies will be built as a Newcastle module dependency which means these modules don't need to be added to Newcastle.build.cs as dependencies.
+
+```json
+{
+    "Name": "Newcastle",
+    "Type": "Runtime",
+    "LoadingPhase": "Default",
+    "AdditionalDependencies": [
+        "Engine",
+        "AIModule",
+        "UMG"
+    ]
+},
+```
