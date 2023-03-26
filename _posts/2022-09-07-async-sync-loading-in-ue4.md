@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Async Loading in UE4"
+title: "Async and Sync Loading in UE4"
 date: 2022-09-07 21:21:00 +0000
 categories: [Programming]
 tags: [UE4]
@@ -27,3 +27,6 @@ UPROPERTY()
 UAnimMontage* LoadedAnimMontage;
 ```
 on the character to make sure the loaded anim montage will stay in memory until the character is gone.
+
+One thing to be careful is if you call into StaticSyncLoadObject it will flush all pending async loadings which will likely cause a stall to your game.
+You can verify this by adding a breakpoint in void FlushAsyncLoading(int32 PackageID /* = INDEX_NONE */).
