@@ -27,6 +27,6 @@ When the editor is creating a class default object for AGun, the editor calls AG
 
 The problem here I think is related to how a C++ class instance is constructed, because the ASMComponent->GetOwner() is AGun so the returned GunInterface is not nullptr hence the if condition is true.
 
-However, because we are trying to access the GunInterface's function in Weapon's ctor (Weapon isn't derived from IGunInterface), we stumbles into an area that hasn't be initialized yet.
+However, because we are trying to access the GunInterface's function in Weapon's ctor (Weapon isn't derived from IGunInterface), we stumble into an area that hasn't be initialized yet.
 
 The conclusion is: don't access things in the child class from parent class's ctor.
