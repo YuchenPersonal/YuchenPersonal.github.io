@@ -12,7 +12,11 @@ As long as a module is added as a dependency to one module in .uproject, it will
 
 E.g. I have a RandomNumber module and my main game module is dependent on it (It's in my MainGameModule.Build.cs's private dependencies), as long as my main game module is added to my .uproject, the RandomNumber will be built.
 
-One thing to notice is if you want an automated test to show up in the editor session frontend, you'd have to add the test module to .uproject.
+A few extra things about .uproject to point out:
+
+If you want an automated test to show up in the editor session frontend, you have to add the test module to .uproject.
+
+If you want to create a BP class deriving from a cpp class, you have to add the cpp module to .uproject.
 
 My understanding about why we need .Target.cs, .Build.cs, and .uproject
 
