@@ -15,9 +15,9 @@ It only applies to function parameter.
 ```cpp
 int* TestFunc(const int* Ptr)
 {
-    //int* Ptr2 = Ptr; // Compile error cannot convert from 'const int *' to 'int *'
+	//int* Ptr2 = Ptr; // Compile error cannot convert from 'const int *' to 'int *'
 	int* Ptr2 = (int*)Ptr;
-
+	
 	//*Ptr2 = 8; // *Ptr will be changed to 8
 
 	return Ptr2;
