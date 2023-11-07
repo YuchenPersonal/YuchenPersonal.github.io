@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fix Error Unreal Lightmass executable is outdated. Recompile UnrealLightmass project with Development configuration in Visual Studio."
+title: "Fix Error Unreal Lightmass executable is outdated - Recompile UnrealLightmass project with Development configuration in Visual Studio"
 date: 2023-06-27 19:50:00 +0000
 categories: [Programming, Lightmass]
 tags: [UE4, Lightmass]
