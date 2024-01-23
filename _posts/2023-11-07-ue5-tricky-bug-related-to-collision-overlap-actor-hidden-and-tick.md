@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "UE5 A Tricky bug about collision, overlap, actor hidden and tick"
+title: "UE5 A Tricky Bug About Collision, Overlap, Actor Hidden And Tick"
 date: 2023-11-07 10:50:00 +0000
 categories: [Programming, Collision, Overlap]
 tags: [UE5, Collision, Overlap]

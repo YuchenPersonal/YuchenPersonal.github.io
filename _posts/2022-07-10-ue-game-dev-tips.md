@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unreal Engine Game Development TIps"
+title: "Unreal Engine Game Development Tips"
 date: 2022-07-10 20:40:00 +0000
 categories: [Programming]
 tags: [UE4]
