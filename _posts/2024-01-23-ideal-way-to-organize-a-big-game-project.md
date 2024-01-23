@@ -32,6 +32,7 @@ Game plugins are a bit different and they are on a different higher level so mod
 
 So, lower level modules can depend on higher level modules, not the other way around and modules shouldn't depend on other modules on the same level.
 
+<div>
                         Engine Modules
 ---------------------------------------------------------------
 
@@ -47,3 +48,4 @@ Game Codebase
              Game Project Specific Feature Modules
 ---------------------------------------------------------------
                         Main Game Module
+</div>
