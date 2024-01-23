@@ -33,19 +33,19 @@ Game plugins are a bit different and they are on a different higher level so mod
 So, lower level modules can depend on higher level modules, not the other way around and modules shouldn't depend on other modules on the same level.
 
 <div>
-                        Engine Modules
----------------------------------------------------------------
-
-Game Codebase
-                            Plugins
----------------------------------------------------------------
-                          Tool Modules
----------------------------------------------------------------
-                       Framework Modules
----------------------------------------------------------------
-                   General Feature Modules
----------------------------------------------------------------
-             Game Project Specific Feature Modules
----------------------------------------------------------------
-                        Main Game Module
+<p>                     Engine Modules                         </p>
+<p>------------------------------------------------------------</p>
+<p></p>
+<p>Game Codebase</p>
+<p>                         Plugins                            </p>
+<p>------------------------------------------------------------</p>
+<p>                       Tool Modules                         </p>
+<p>------------------------------------------------------------</p>
+<p>                    Framework Modules                       </p>
+<p>------------------------------------------------------------</p>
+<p>                General Feature Modules                     </p>
+<p>------------------------------------------------------------</p>
+<p>          Game Project Specific Feature Modules             </p>
+<p>------------------------------------------------------------</p>
+<p>                     Main Game Module                       </p>
 </div>
