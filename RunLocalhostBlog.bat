@@ -1,0 +1,3 @@
+@echo off
+echo Starting Jekyll server...
+bundle exec jekyll serve
