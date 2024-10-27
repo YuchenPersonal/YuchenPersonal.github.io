@@ -2,8 +2,8 @@
 layout: post
 title: "UE5 A Tricky Bug About Collision, Overlap, Actor Hidden And Tick"
 date: 2023-11-07 10:50:00 +0000
-categories: [Programming, Collision]
-tags: [UE5, Collision]
+categories: [Programming]
+tags: [UE5, UE5/Collision]
 ---
 
 Yesterday I created a bug that I was so confused about:

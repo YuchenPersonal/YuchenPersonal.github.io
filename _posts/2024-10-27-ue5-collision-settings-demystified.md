@@ -2,8 +2,8 @@
 layout: post
 title: "UE5.3 Collision Settings Demystified"
 date: 2024-10-27 22:02:00 +0000
-categories: [Programming, Collision]
-tags: [UE5, Collision]
+categories: [Programming]
+tags: [UE5, UE5/Collision]
 ---
 
 I recently started a refactor of my project's collision settings which dramatically simplified it and improved my understanding of how the collision settings work.

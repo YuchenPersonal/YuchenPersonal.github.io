@@ -14,12 +14,13 @@ layout: default
     {%- if posts.size > 0 -%}
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 
-    {% assign sorted_tags = site.tags | sort %}
+    {% assign tags = site.tags | sort %}
 
-    {% for tag in sorted_tags %}
+    {% for tag in tags %}
+    {% unless tag[0] contains "/" %}
     <h2 class="post-list-heading">{{ tag[0] }}</h2>
     <ul class="post-list">
-        {% assign posts_for_tag = tag[1] %}
+        {% assign posts_for_tag = tag[1] | uniq %}
         {% for post in posts_for_tag %}
         <li>
             <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -27,6 +28,23 @@ layout: default
         </li>
         {% endfor %}
     </ul>
+
+    <!-- Handle Sub-tags -->
+    {% for sub_tag in tags %}
+    {% if sub_tag[0] contains tag[0] and sub_tag[0] != tag[0] %}
+    <h4 class="sub-tag-heading">{{ sub_tag[0] }}</h4>
+    <ul class="post-list">
+        {% assign posts_for_sub_tag = sub_tag[1] | uniq %}
+        {% for post in posts_for_sub_tag %}
+        <li>
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h5><a class="post-link" target="_blank" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h5>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% endfor %}
+    {% endunless %}
     {% endfor %}
     {%- endif -%}
 </div>
