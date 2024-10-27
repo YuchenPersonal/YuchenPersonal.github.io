@@ -9,42 +9,26 @@ layout: default
 
     {{ content }}
 
-    {% assign posts = site.posts %}
+    {% assign posts = site.posts | sort: 'date' | reverse %}
 
     {%- if posts.size > 0 -%}
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-
-    {% assign tags = site.tags | sort %}
-
-    {% for tag in tags %}
-    {% unless tag[0] contains "/" %}
-    <h2 class="post-list-heading">{{ tag[0] }}</h2>
     <ul class="post-list">
-        {% assign posts_for_tag = tag[1] | uniq %}
-        {% for post in posts_for_tag %}
+        {% for post in posts %}
         <li>
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h3><a class="post-link" target="_blank" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span class="post-meta" style="width: 120px; text-align: left;">
+                    {{ post.date | date: "%d %m %Y" }}
+                </span>
+                <span class="post-tags" style="font-size: smaller; margin-left: 10px; text-align: right; flex-grow: 1;">
+                    {{ post.tags | join: ', ' }}
+                </span>
+            </div>
+            <h3 class="post-title" style="margin: 10px 0 0 0;">
+                <!-- Added margin-top -->
+                <a class="post-link" target="_blank" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h3>
         </li>
         {% endfor %}
     </ul>
-
-    <!-- Handle Sub-tags -->
-    {% for sub_tag in tags %}
-    {% if sub_tag[0] contains tag[0] and sub_tag[0] != tag[0] %}
-    <h4 class="sub-tag-heading">{{ sub_tag[0] }}</h4>
-    <ul class="post-list">
-        {% assign posts_for_sub_tag = sub_tag[1] | uniq %}
-        {% for post in posts_for_sub_tag %}
-        <li>
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h5><a class="post-link" target="_blank" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h5>
-        </li>
-        {% endfor %}
-    </ul>
-    {% endif %}
-    {% endfor %}
-    {% endunless %}
-    {% endfor %}
     {%- endif -%}
 </div>
