@@ -2,7 +2,8 @@
 layout: post
 title: "In-Depth View of Unreal Engine Class Default Object"
 date: 2024-02-15 23:50:00 +0000
-categories: [UE4, UE5]
+categories: [Programming]
+tags: [UE4, UE5]
 ---
 
 In order to understand the idea of class default object in unreal engine, we need to start from what a class is and what an object is.

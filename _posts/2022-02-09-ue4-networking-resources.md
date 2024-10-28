@@ -2,7 +2,7 @@
 layout: post
 title: "UE4 Networking Resources"
 date: 2022-02-09 21:21:27 +0000
-categories: [Programming, UE4, Networking]
+categories: [Programming]
 tags: [UE4]
 ---
 
