@@ -53,4 +53,4 @@ This also applies to a temp value declared in a scope as shown in the above exam
 
 Here's a good example from MS Learn on how to create move ctor and assignment operator
 
-[Move Constructors and Move Assignment Operators (C++)](https://yuchenpersonal.github.io/assets/pdf/Move-Constructors-and-Move-Assignment-Operators-C++.pdf)
+[Move Constructors and Move Assignment Operators (C++)](/assets/pdf/Move-Constructors-and-Move-Assignment-Operators-C++.pdf)

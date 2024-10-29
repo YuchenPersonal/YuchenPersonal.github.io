@@ -12,4 +12,4 @@ It explains why we need rvalue reference which I think is the most important thi
 
 I've converted it to pdf and put it on my git just in case the webpage might be missing one day.
 
-[C++ rvalue Reference](https://yuchenpersonal.github.io/assets/pdf/devblogs-microsoft-com-cppblog-rvalue-references-c0x-features-in-vc10-part-2.pdf)
+[C++ rvalue Reference](/assets/pdf/devblogs-microsoft-com-cppblog-rvalue-references-c0x-features-in-vc10-part-2.pdf)
