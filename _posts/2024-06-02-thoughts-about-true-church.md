@@ -9,4 +9,4 @@ Recently I've been pondering a lot about tithing. Now I've realized that tithing
 
 So, whether I should do tithing won't be a question anymore, what I need to do is to make sure I give it to God / the true church of Jesus Christ.
 
-How do I know which one is the true church? I think a church that teaches humility and enourages repentance is the true church because repentance is the only way we can become more like Christ and we need to be humble to be willing to repentant.
+How do I know which one is the true church? I think a church that teaches humility and encourages repentance is the true church because repentance is the only way we can become more like Christ and we need to be humble to be willing to repentant.

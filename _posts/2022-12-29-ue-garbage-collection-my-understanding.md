@@ -19,5 +19,5 @@ You can use TWeakObjectPtr to check if a UObject is GCed. TWeakObjectPtr will no
 To trigger GC, you can use the console command gc.CollectGarbageEveryFrame 1.
 
 A few more things which may worth paying attention to are:
-1. For UPROPERTY marked containers of UObject*, its element will be nulled when the UObject is GCed but its size won't change. Also if it's only destoryed but not GCed, IsValid() will fail but null pointer check will pass.
+1. For UPROPERTY marked containers of UObject*, its element will be nulled when the UObject is GCed but its size won't change. Also if it's only destroyed but not GCed, IsValid() will fail but null pointer check will pass.
 2. TObjectPtr behaves the same as UObject* in regards to garbage collection.

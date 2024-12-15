@@ -8,11 +8,11 @@ tags: [UE4]
 
 Today I was working on my hobby project and I came across a weird issue.
 
-My GameMode C++ class has a component called SaveGameComponent. Its a blueprint spawnable compoennt. I created it in C++ using CreateDefaultObject.
+My GameMode C++ class has a component called SaveGameComponent. Its a blueprint spawnable component. I created it in C++ using CreateDefaultObject.
 
 I have a blueprint which derives from my GameMode called BP_GameMode.
 
-However, the first time I play the game in edtior it works fine but after that when I want to find the SaveGameComponent in my GameMode::InitGame it's null.
+However, the first time I play the game in editor it works fine but after that when I want to find the SaveGameComponent in my GameMode::InitGame it's null.
 
 From what I can see it seems to be this issue:
 

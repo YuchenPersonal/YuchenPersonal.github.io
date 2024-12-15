@@ -21,4 +21,4 @@ When you are asked by someone who might be the best person to talk to about some
 
 When you want to ask if someone else have capacity to take a look at something: Is anyone on Team A in a place to dig into some XXX?
 
-When you descirbe logs: After this log, one would normally expect this next log to follow, however it did not.
+When you describe logs: After this log, one would normally expect this next log to follow, however it did not.
