@@ -6,7 +6,9 @@ categories: [Programming]
 tags: [UE5, UE5/Collision]
 ---
 
-I recently started a refactor of my project's collision settings which dramatically simplified it and improved my understanding of how the collision settings work.
+This is a good introduction of Unreal's collision [Collision Filtering](https://www.unrealengine.com/en-US/blog/collision-filtering){:target="_blank"}
+
+Recently, I started a refactor of my project's collision settings which dramatically simplified it and improved my understanding of how the collision settings work.
 
 The first part of collision settings contains Trace Channel and Object Channel. 
 
@@ -30,6 +32,6 @@ It overlaps WorldDynamic because some collisions use this object channel like ex
 
 It blocks projectile because most of my AI's projectiles uses component hit event which requires the response to be block.
 
-One big gotcha is **only your projectile's root component is able to trigger component hit event** so if you want to use component hit you have to set your root component's collision settings. In my project, one of my enemy spawns a projectle from its hand and throws it, this projectile has to make the static mesh as its root to relatively easily attach/detach it to/from a socket, so I have to set the collision setting on the static mesh.
+One big gotcha is **only your projectile's root component is able to trigger component hit event correctly** so if you want to use component hit you have to set your root component's collision settings. In my project, one of my enemy spawns a projectle from its hand and throws it, this projectile has to make the static mesh as its root to relatively easily attach/detach it to/from a socket, so I have to set the collision setting on the static mesh.
 
 Another thing that tripped me up when debugging collisions was **logic in a Blueprint’s Construction Script. After dragging the Blueprint into a level, I made some changes to the BP's Construction Script. However, the placed actor didn’t reflect the updated Construction Script logic because it had already been instantiated.**
