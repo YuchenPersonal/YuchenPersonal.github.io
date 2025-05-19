@@ -22,10 +22,10 @@ Each class only has one class default object.
 
 We need this class default object because when we create a new UObject at runtime of a UClass, we can use the class default object as a template so all properties of the newly allocated object will copy properties from the class default object. (See *StaticConstructObject_Internal() > ~FObjectInitializer() > PostConstructInit() > InitProperties()*)
 
-When you are editing a blueprint in editor, what you really are editing is the class default object of this blueprint class.
+When you edit a blueprint in editor, what you really are editing is the class default object of this blueprint class.
 
 In conclusion, UClass is class at runtime and UObject is the instance, the real thing that can be created from UClass.
 
-So a blueprint class you create in editor is a class because you use it as a template to create the real thing and the real thing you create is UObject.
+So, a blueprint class you create in editor is a class because you use it as a template to create the real thing and the real thing you create is UObject.
 
 Other examples of UObjects are UTexture, UDataAsset because they are the things you can use directly, not templates you use to instantiate things.

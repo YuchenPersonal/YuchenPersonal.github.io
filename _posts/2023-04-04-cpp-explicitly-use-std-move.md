@@ -36,7 +36,7 @@ int main()
 
 	for (int Index = 0; Index < 1; Index++)
 	{
-	    FRow TempRow;
+		FRow TempRow;
 
 		TempRows.push_back(TempRow); // copy ctor
 		// TempRows.push_back(std::move(TempRow)); move ctor
