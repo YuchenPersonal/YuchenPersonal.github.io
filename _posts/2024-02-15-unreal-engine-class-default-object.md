@@ -14,13 +14,13 @@ Basically a class is a tool used to create objects that have same attributes.
 
 In unreal, there's a thing called UClass which represents a class at runtime.
 
-UClass is needed because we need to know how much memory we need to allocate when creating an UObject of this UClass. (See *UClass::GetPropertiesSize()* and *StaticAllocateObject()*)
+UClass is needed because we need to know how much memory we need to allocate when creating an UObject of this UClass. (See `UClass::GetPropertiesSize()` and `StaticAllocateObject()`)
 
 UClass also has a function called GetDefaultObject which returns the class default object.
 
 Each class only has one class default object.
 
-We need this class default object because when we create a new UObject at runtime of a UClass, we can use the class default object as a template so all properties of the newly allocated object will copy properties from the class default object. (See *StaticConstructObject_Internal() > ~FObjectInitializer() > PostConstructInit() > InitProperties()*)
+We need this class default object because when we create a new UObject at runtime of a UClass, we can use the class default object as a template so all properties of the newly allocated object will copy properties from the class default object. (See `StaticConstructObject_Internal() > ~FObjectInitializer() > PostConstructInit() > InitProperties()`)
 
 When you edit a blueprint in editor, what you really are editing is the class default object of this blueprint class.
 
