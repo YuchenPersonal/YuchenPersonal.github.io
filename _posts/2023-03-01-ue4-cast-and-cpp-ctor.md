@@ -29,4 +29,4 @@ The problem here I think is related to how a C++ class instance is constructed, 
 
 However, because we are trying to access the GunInterface's function in Weapon's ctor (Weapon isn't derived from IGunInterface), we stumble into an area that hasn't be initialized yet.
 
-The conclusion is: don't access things in the child class from parent class's ctor.
+The conclusion is: __Don't access things in the child class from parent class's ctor.__
