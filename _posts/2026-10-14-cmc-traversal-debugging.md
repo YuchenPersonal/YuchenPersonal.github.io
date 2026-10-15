@@ -3,7 +3,7 @@ layout: post
 title: "Fix CMC Traversal Animation Selection"
 date: 2026-10-14 21:00:00 +0000
 categories: [Programming]
-tags: [UE4, UE5]
+tags: [UE5, Animation]
 ---
 
 Today I investigated a traversal animation issue in the Game Animation Sample 5.8 CMC character used by Pisces.
